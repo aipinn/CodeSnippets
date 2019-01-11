@@ -3,20 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_extension</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#something#&gt;
+	<string>@interface &lt;#name#&gt;()
+
+@end
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CC14C28F-2FA3-4032-8E58-E25B89ECEBD8</string>
+	<string>8D68DFE7-69E7-46E6-B4F0-F3C5EEC1BC12</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>ap add interface() extension</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark</string>
+	<string>ap add interface() extension</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

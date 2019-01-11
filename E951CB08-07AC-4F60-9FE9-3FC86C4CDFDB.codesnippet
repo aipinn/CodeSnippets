@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wundeclared-selector"
+#pragma clang diagnostic ignored "&lt;#-Wundeclared-selector#&gt;"
 &lt;#Some contain Undeclared selector warning snippets#&gt;
 #pragma clang diagnostic pop</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -22,6 +22,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
