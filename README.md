@@ -1,5 +1,5 @@
 # xcodeSnippets
 Xcode code snippets 位置
-~/Library/Developer/Xcode/UserData/CodeSnippets
+~/Library/Developer/Xcode/UserData/
 
-**默认没有/CodeSnippets文件夹，手动添加此文件夹或者先在xcode手动添加一个代码片段，会自动创建此文件夹**
+**如果从没有创建代码片段，默认没有/CodeSnippets文件夹，可以直接cd到UserData/下进行clone**
