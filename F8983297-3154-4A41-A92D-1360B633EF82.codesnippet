@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_lazy_view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string>private lazy var &lt;#view#&gt;: UIView = {
+        let &lt;#view#&gt; = UIView()
+        &lt;#view#&gt;.backgroundColor = &lt;#kColorHex("#F0F2F3")#&gt;
+        return &lt;#view#&gt;
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>F8983297-3154-4A41-A92D-1360B633EF82</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>ap_lazy_view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

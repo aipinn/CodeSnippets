@@ -3,19 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_lazy_tableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string>private lazy var tableView: UITableView = {
+    let tv = UITableView(frame: .zero)
+    tv.keyboardDismissMode = .onDrag
+    tv.separatorStyle = .none
+    tv.dataSource = self
+    tv.delegate = self
+    tv.rowHeight = 60
+    tv.tableFooterView = UIView()
+    tv.backgroundColor = view.backgroundColor
+    tv.registerNibCell(RealTimeExcRateCell.self)
+    return tv
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>E8F5A14A-0906-41F4-8ED7-672F60E393E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>ap_lazy_tableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_deinit</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string>deinit {
+        Logger.log("\(#file), \(#function)")
+    }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>2C4EE27B-30CE-45CD-82BB-DB0470F432C3</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>deinit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

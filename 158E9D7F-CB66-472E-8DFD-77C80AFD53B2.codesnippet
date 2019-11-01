@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@PNWeakObj(&lt;#obj#&gt;);</string>
+	<string>@PNWeakObj(&lt;#obj#&gt;);
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>158E9D7F-CB66-472E-8DFD-77C80AFD53B2</string>
 	<key>IDECodeSnippetLanguage</key>

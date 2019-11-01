@@ -3,26 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ap_fast_button</string>
+	<string>ap_lazy_collectionView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>        let button = UIButton(frame: CGRect(x: 0, y: kTopBarHeight, width: 100, height: 50))
-        button.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;)
-        button.addTarget(self, action: #selector(buttonSelected), for: .touchUpInside)
-        button.backgroundColor = .blue
-        view.addSubview(button)</string>
+	<string> private lazy var collectionView: UICollectionView = {
+    let layout = &lt;#BankCardFlowLayout#&gt;()
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.backgroundColor = .green
+        collectionView.isPagingEnabled = true
+        collectionView.showsHorizontalScrollIndicator = false
+        //collectionView.registerReusableCell(WeekCollectionCell.self)
+        return collectionView
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>AAC2BE43-05E5-4163-AAD5-FB00F7C34065</string>
+	<string>63C10263-8E0C-4412-8AA9-68639D30780D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建按钮</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Fast Create UIButton</string>
+	<string>ap_lazy_collectionView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

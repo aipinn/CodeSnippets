@@ -3,19 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_class_view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string>// MARK: - &lt;#HotlineView#&gt;
+class &lt;#HotlineView#&gt;: UIView {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+}
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>5F8749F6-F050-4494-A162-F0637330EFCD</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UIView的子类</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>ap_class_view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

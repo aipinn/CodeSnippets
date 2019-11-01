@@ -3,19 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_lazy_textField</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string> private lazy textField: UITextField = {
+        let textField = UITextField()
+        textField.font = &lt;#.regular(14)#&gt;
+        textField.textColor = &lt;#.t33333#&gt;
+        textField.clearButtonMode = .whileEditing
+        textField.enablesReturnKeyAutomatically = true
+        textField.returnKeyType = &lt;#.search#&gt;
+        return textField
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>0FA9A6F2-94D8-44C6-BA93-60EA1E765725</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>ap_lazy_textField</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

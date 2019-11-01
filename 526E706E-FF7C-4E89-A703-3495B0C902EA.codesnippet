@@ -3,19 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>apmark</string>
+	<string>ap_asyn_data</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#comment#&gt;</string>
+	<string>        DispatchQueue.global().async {
+            var data: [&lt;#type#&gt;] = []
+            for i in 0...20 {
+                let &lt;#model#&gt; = [&lt;#type#&gt;]()
+                data.append(product)
+            }
+            DispatchQueue.main.async {
+                self.dataSource = data
+            }
+        }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
+	<string>526E706E-FF7C-4E89-A703-3495B0C902EA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>注释-comment</string>
+	<string>异步产生数据主线程回调</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
