@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ap_un_sel_warning</string>
+	<string>ap_dis_main</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma clang diagnostic push
-#pragma clang diagnostic ignored "&lt;#-Wundeclared-selector#&gt;"
-&lt;#Some contain Undeclared selector warning snippets#&gt;
-#pragma clang diagnostic pop</string>
+	<string>    dispatch_async(dispatch_get_main_queue(), ^{
+
+    });</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E951CB08-07AC-4F60-9FE9-3FC86C4CDFDB</string>
+	<string>1B268946-74B0-41AB-8923-243572E93099</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>GCD:dispatch_asyc in main queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Undeclared selector警告取消</string>
+	<string>dispatch_asyc in main queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

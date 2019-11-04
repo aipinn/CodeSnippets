@@ -9,14 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - &lt;#something#&gt;
-</string>
+	<string>// MARK: - &lt;#comment#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CC14C28F-2FA3-4032-8E58-E25B89ECEBD8</string>
+	<string>D790B7CB-C4A5-477D-861F-61F352A6B2A5</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mark</string>
+	<string>注释-comment</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

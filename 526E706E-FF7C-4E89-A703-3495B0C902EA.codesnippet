@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ap_asyn_data</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        DispatchQueue.global().async {
+            var data: [&lt;#type#&gt;] = []
+            for i in 0...20 {
+                let &lt;#model#&gt; = [&lt;#type#&gt;]()
+                data.append(product)
+            }
+            DispatchQueue.main.async {
+                self.dataSource = data
+            }
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>526E706E-FF7C-4E89-A703-3495B0C902EA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>异步产生数据主线程回调</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -3,22 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@weakObj</string>
+	<string>ap_lazy_tableView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@PNWeakObj(&lt;#obj#&gt;);
+	<string>private lazy var tableView: UITableView = {
+    let tv = UITableView(frame: .zero)
+    tv.keyboardDismissMode = .onDrag
+    tv.separatorStyle = .none
+    tv.dataSource = self
+    tv.delegate = self
+    tv.rowHeight = 60
+    tv.tableFooterView = UIView()
+    tv.backgroundColor = view.backgroundColor
+    tv.registerNibCell(RealTimeExcRateCell.self)
+    return tv
+    }()
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>158E9D7F-CB66-472E-8DFD-77C80AFD53B2</string>
+	<string>E8F5A14A-0906-41F4-8ED7-672F60E393E6</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@weakObj</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@weakObj</string>
+	<string>ap_lazy_tableView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

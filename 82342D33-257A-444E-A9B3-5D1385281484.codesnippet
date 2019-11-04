@@ -3,22 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ap_un_sel_warning</string>
+	<string>apguardweakself</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma clang diagnostic push
-#pragma clang diagnostic ignored "&lt;#-Wundeclared-selector#&gt;"
-&lt;#Some contain Undeclared selector warning snippets#&gt;
-#pragma clang diagnostic pop</string>
+	<string>            guard let self = self else {
+                &lt;#code#&gt;
+                return
+            }
+            &lt;#code#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E951CB08-07AC-4F60-9FE9-3FC86C4CDFDB</string>
+	<string>82342D33-257A-444E-A9B3-5D1385281484</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Undeclared selector警告取消</string>
+	<string>Guard weak self</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

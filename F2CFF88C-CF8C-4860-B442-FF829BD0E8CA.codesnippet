@@ -3,22 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ap_un_sel_warning</string>
+	<string>mk_multi</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma clang diagnostic push
-#pragma clang diagnostic ignored "&lt;#-Wundeclared-selector#&gt;"
-&lt;#Some contain Undeclared selector warning snippets#&gt;
-#pragma clang diagnostic pop</string>
+	<string>/*:
+ &lt;#Markup#&gt;
+ */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E951CB08-07AC-4F60-9FE9-3FC86C4CDFDB</string>
+	<string>F2CFF88C-CF8C-4860-B442-FF829BD0E8CA</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Undeclared selector警告取消</string>
+	<string>Markup_comment_multiLines</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

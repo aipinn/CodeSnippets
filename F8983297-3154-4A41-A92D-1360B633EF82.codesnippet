@@ -2,18 +2,27 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ap_lazy_view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string></string>
+	<string>private lazy var &lt;#view#&gt;: UIView = {
+        let &lt;#view#&gt; = UIView()
+        &lt;#view#&gt;.backgroundColor = &lt;#kColorHex("#F0F2F3")#&gt;
+        return &lt;#view#&gt;
+    }()
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7B44E92E-D379-46C3-BB1D-B7120C13E842</string>
+	<string>F8983297-3154-4A41-A92D-1360B633EF82</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
-	<key>IDECodeSnippetTitle</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
 	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ap_lazy_view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

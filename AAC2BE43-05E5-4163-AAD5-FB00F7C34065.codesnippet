@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ap_fast_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        let button = UIButton(frame: CGRect(x: 0, y: kTopBarHeight, width: 100, height: 50))
+        button.setTitle(&lt;#T##title: String?##String?#&gt;, for: &lt;#T##UIControl.State#&gt;)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: &lt;#T##CGFloat#&gt;)
+        button.addTarget(self, action: #selector(buttonSelected), for: .touchUpInside)
+        button.backgroundColor = .blue
+        view.addSubview(button)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>AAC2BE43-05E5-4163-AAD5-FB00F7C34065</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建按钮</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Fast Create UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

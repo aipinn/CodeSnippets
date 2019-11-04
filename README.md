@@ -1,2 +1,12 @@
 # xcodeSnippets
-Xcode code snippets
+Xcode code snippets 位置:
+
+~/Library/Developer/Xcode/UserData/
+
+**如果从没有创建代码片段，默认没有/CodeSnippets文件夹，可以直接cd到UserData/下进行clone**
+```
+cd ~/Library/Developer/Xcode/UserData/
+git clone git@github.com:aipinn/CodeSnippets.git
+```
+
+**也许需要重启xcode才会生效**

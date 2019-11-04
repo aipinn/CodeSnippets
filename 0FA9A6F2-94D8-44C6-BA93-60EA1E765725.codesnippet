@@ -3,22 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@weakObj</string>
+	<string>ap_lazy_textField</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@PNWeakObj(&lt;#obj#&gt;);
+	<string> private lazy textField: UITextField = {
+        let textField = UITextField()
+        textField.font = &lt;#.regular(14)#&gt;
+        textField.textColor = &lt;#.t33333#&gt;
+        textField.clearButtonMode = .whileEditing
+        textField.enablesReturnKeyAutomatically = true
+        textField.returnKeyType = &lt;#.search#&gt;
+        return textField
+    }()
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>158E9D7F-CB66-472E-8DFD-77C80AFD53B2</string>
+	<string>0FA9A6F2-94D8-44C6-BA93-60EA1E765725</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>@weakObj</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@weakObj</string>
+	<string>ap_lazy_textField</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
