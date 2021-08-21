@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ap_lazy_stackview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var uiStackView: UIStackView = {
+        let stack = UIStackView()
+        stack.axis = .&lt;#horizontal#&gt;
+        stack.distribution = .&lt;#distribution#&gt;
+        stack.alignment = .&lt;#algin#&gt;
+        stack.spacing = 10
+        stack.backgroundColor = .white
+        //stack.addArrangedSubview(&lt;#T##view: UIView##UIView#&gt;)
+        return stack
+    }()</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>27DA744C-0213-4AE8-B13B-BB3158400F62</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Lazy stackView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
